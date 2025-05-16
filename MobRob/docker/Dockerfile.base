@@ -1,0 +1,39 @@
+# Base image
+
+# other containers will inherit docker.base to avoid redundent installs
+ARG ROS_DISTRO=jazzy
+
+FROM ros:jazzy-ros-base
+
+# set working directory
+WORKDIR /workspace
+
+# set environment variables
+ENV TZ=UTC
+ENV ROS_DOMAIN_ID=7
+ENV DISPLAY=:1
+
+# install essential dependencies
+RUN apt-get update && apt-get install -y \
+    vim \
+    wget \
+    dpkg \
+    build-essential \
+    cmake \
+    #ros-jazzy-joy-linux \
+    python3-pip \
+    python3-colcon-common-extensions \
+    # ros-jazzy-rviz2 \
+    # ros-jazzy-rqt* \
+    # ros-jazzy-sensor-msgs \
+    python3-colcon-common-extensions \
+    git \
+    doxygen \
+    python3-tk \
+    python3-rosdep \
+    python3-pip\
+    x11-apps \
+    python3-serial \
+    usbutils \
+    && rm -rf /var/lib/apt/lists/*
+

@@ -1,0 +1,28 @@
+1. Build ros2-base image
+docker build -t ros2-base -f ./docker/Dockerfile.base .
+
+2. Run docker compose to build and start all nodes
+docker-compose up --build
+
+
+Summary of What Happens After Running docker-compose up --build:
+Build Images: Docker Compose builds the images for both controller and drive containers based on their respective Dockerfiles.
+
+Start Containers: Docker Compose starts both containers (controller and drive), each with its own environment configuration (volumes, network, devices).
+
+Run Commands: The specified commands (ros2 launch controller my_script_launch.py and ros2 run ariaNode ariaNode -rp /dev/ttyUSB0) are executed inside each container, starting the respective ROS 2 nodes.
+
+Access ROS 2 Nodes: The controller and drive containers are now running, and you can interact with them via ROS 2 commands, check their logs, and troubleshoot if needed.
+
+3. What now?
+
+    1. Access the containers
+        docker exec -it <container_name> bash
+        Starts a bash session inside containers to check logs, run commands, or inspect the running state.
+
+    2. Monitor ros2 nodes and topics
+        ros2 node lost
+        ros2 topic list
+        ros2 topic echo <topic_name?
+
+    

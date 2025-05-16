@@ -1,0 +1,412 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (-) JobUnselected: {'identifier': 'ariaNode'}
+[0.000381] (-) JobUnselected: {'identifier': 'autoDrive'}
+[0.000466] (-) JobUnselected: {'identifier': 'camera'}
+[0.000820] (-) JobUnselected: {'identifier': 'controller'}
+[0.000899] (-) JobUnselected: {'identifier': 'detection'}
+[0.000973] (-) JobUnselected: {'identifier': 'lakibeam1'}
+[0.001089] (-) JobUnselected: {'identifier': 'libphidget22'}
+[0.001209] (-) JobUnselected: {'identifier': 'master'}
+[0.001333] (-) JobUnselected: {'identifier': 'phidget'}
+[0.001436] (-) JobUnselected: {'identifier': 'phidgets_accelerometer'}
+[0.001532] (-) JobUnselected: {'identifier': 'phidgets_analog_inputs'}
+[0.001624] (-) JobUnselected: {'identifier': 'phidgets_analog_outputs'}
+[0.001895] (-) JobUnselected: {'identifier': 'phidgets_api'}
+[0.001988] (-) JobUnselected: {'identifier': 'phidgets_digital_inputs'}
+[0.002085] (-) JobUnselected: {'identifier': 'phidgets_digital_outputs'}
+[0.002171] (-) JobUnselected: {'identifier': 'phidgets_drivers'}
+[0.002242] (-) JobUnselected: {'identifier': 'phidgets_gyroscope'}
+[0.002327] (-) JobUnselected: {'identifier': 'phidgets_high_speed_encoder'}
+[0.002409] (-) JobUnselected: {'identifier': 'phidgets_ik'}
+[0.003720] (-) JobUnselected: {'identifier': 'phidgets_magnetometer'}
+[0.003902] (-) JobUnselected: {'identifier': 'phidgets_motors'}
+[0.003992] (-) JobUnselected: {'identifier': 'phidgets_msgs'}
+[0.004123] (-) JobUnselected: {'identifier': 'phidgets_spatial'}
+[0.004770] (-) JobUnselected: {'identifier': 'phidgets_temperature'}
+[0.004935] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005010] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.005139] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.005339] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.025890] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.027586] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.028762] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/src/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/workspace/src/build/interfaces', 'env': OrderedDict({'HOSTNAME': 'pioneer1-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/phidgets_temperature/lib:/workspace/install/phidgets_spatial/lib:/workspace/install/phidgets_motors/lib:/workspace/install/phidgets_high_speed_encoder/lib:/workspace/install/phidgets_digital_outputs/lib:/workspace/install/phidgets_analog_outputs/lib:/workspace/install/phidgets_msgs/lib:/workspace/install/phidgets_magnetometer/lib:/workspace/install/phidgets_gyroscope/lib:/workspace/install/phidgets_digital_inputs/lib:/workspace/install/phidgets_analog_inputs/lib:/workspace/install/phidgets_accelerometer/lib:/workspace/install/phidgets_api/lib:/workspace/install/libphidget22/opt/libphidget22/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidgets_drivers:/workspace/install/phidgets_temperature:/workspace/install/phidgets_spatial:/workspace/install/phidgets_motors:/workspace/install/phidgets_ik:/workspace/install/phidgets_high_speed_encoder:/workspace/install/phidgets_digital_outputs:/workspace/install/phidgets_analog_outputs:/workspace/install/phidgets_msgs:/workspace/install/phidgets_magnetometer:/workspace/install/phidgets_gyroscope:/workspace/install/phidgets_digital_inputs:/workspace/install/phidgets_analog_inputs:/workspace/install/phidgets_accelerometer:/workspace/install/phidgets_api:/workspace/install/phidget:/workspace/install/master:/workspace/install/libphidget22:/workspace/install/lakibeam1:/workspace/install/interfaces:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/workspace/install/ariaNode:/opt/ros/jazzy', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/src/build/interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/py_srvcli/lib/python3.12/site-packages:/workspace/install/py_pubsub/lib/python3.12/site-packages:/workspace/install/phidgets_msgs/lib/python3.12/site-packages:/workspace/install/phidget/lib/python3.12/site-packages:/workspace/install/master/lib/python3.12/site-packages:/workspace/install/detection/lib/python3.12/site-packages:/workspace/install/controller/lib/python3.12/site-packages:/workspace/install/camera/lib/python3.12/site-packages:/workspace/install/autoDrive/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/phidgets_drivers:/workspace/install/phidgets_temperature:/workspace/install/phidgets_spatial:/workspace/install/phidgets_motors:/workspace/install/phidgets_ik:/workspace/install/phidgets_high_speed_encoder:/workspace/install/phidgets_digital_outputs:/workspace/install/phidgets_analog_outputs:/workspace/install/phidgets_msgs:/workspace/install/phidgets_magnetometer:/workspace/install/phidgets_gyroscope:/workspace/install/phidgets_digital_inputs:/workspace/install/phidgets_analog_inputs:/workspace/install/phidgets_accelerometer:/workspace/install/phidgets_api:/workspace/install/libphidget22:/workspace/install/lakibeam1:/workspace/install/interfaces:/workspace/install/ariaNode:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy'}), 'shell': False}
+[0.063055] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099438] (-) TimerEvent: {}
+[0.199670] (-) TimerEvent: {}
+[0.226823] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.286348] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.299783] (-) TimerEvent: {}
+[0.323836] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.375301] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400405] (-) TimerEvent: {}
+[0.478819] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500493] (-) TimerEvent: {}
+[0.570170] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.591229] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.600590] (-) TimerEvent: {}
+[0.700795] (-) TimerEvent: {}
+[0.801072] (-) TimerEvent: {}
+[0.901849] (-) TimerEvent: {}
+[1.002088] (-) TimerEvent: {}
+[1.102321] (-) TimerEvent: {}
+[1.125625] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.202408] (-) TimerEvent: {}
+[1.302658] (-) TimerEvent: {}
+[1.403554] (-) TimerEvent: {}
+[1.503769] (-) TimerEvent: {}
+[1.604010] (-) TimerEvent: {}
+[1.704223] (-) TimerEvent: {}
+[1.804619] (-) TimerEvent: {}
+[1.845811] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.904645] (-) TimerEvent: {}
+[2.004929] (-) TimerEvent: {}
+[2.105138] (-) TimerEvent: {}
+[2.124657] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.129670] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.205237] (-) TimerEvent: {}
+[2.222194] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.305321] (-) TimerEvent: {}
+[2.406294] (-) TimerEvent: {}
+[2.506526] (-) TimerEvent: {}
+[2.606916] (-) TimerEvent: {}
+[2.642402] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.691704] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.701807] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.702654] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.704797] (interfaces) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.706998] (-) TimerEvent: {}
+[2.739654] (interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.750853] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/src/build/interfaces\n'}
+[2.805825] (interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.807225] (-) TimerEvent: {}
+[2.812002] (interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_interfaces\n'}
+[2.907318] (-) TimerEvent: {}
+[3.007941] (-) TimerEvent: {}
+[3.085396] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.088776] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[3.103837] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[3.104298] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[3.104613] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[3.104843] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[3.108008] (-) TimerEvent: {}
+[3.159827] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[3.160381] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[3.198505] (interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[3.208112] (-) TimerEvent: {}
+[3.237742] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__rosidl_generator_type_description\n'}
+[3.250343] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.278572] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.308194] (-) TimerEvent: {}
+[3.409354] (-) TimerEvent: {}
+[3.511769] (-) TimerEvent: {}
+[3.612118] (-) TimerEvent: {}
+[3.712544] (-) TimerEvent: {}
+[3.717277] (interfaces) StdoutLine: {'line': b'[  5%] Built target interfaces__cpp\n'}
+[3.775500] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.776130] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.776591] (interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[3.779061] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[3.779709] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[3.781566] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[3.785621] (interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.787935] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[3.812629] (-) TimerEvent: {}
+[3.874547] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[3.912734] (-) TimerEvent: {}
+[3.968432] (interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.014320] (-) TimerEvent: {}
+[4.054294] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_generator_c\n'}
+[4.063722] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.065126] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.065288] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.065372] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.065467] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.065538] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.114469] (-) TimerEvent: {}
+[4.215446] (-) TimerEvent: {}
+[4.317810] (-) TimerEvent: {}
+[4.421770] (-) TimerEvent: {}
+[4.527765] (interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.527939] (-) TimerEvent: {}
+[4.540711] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.547813] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.558569] (interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.561998] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[4.580854] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.630003] (-) TimerEvent: {}
+[4.645214] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.658767] (interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.708532] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.730090] (-) TimerEvent: {}
+[4.742996] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[4.745706] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.808058] (interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.830181] (-) TimerEvent: {}
+[4.848929] (interfaces) StdoutLine: {'line': b'[ 57%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[4.863262] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.931922] (-) TimerEvent: {}
+[4.936172] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.032033] (-) TimerEvent: {}
+[5.073576] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_c\n'}
+[5.112927] (interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.138383] (-) TimerEvent: {}
+[5.183513] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[5.241773] (-) TimerEvent: {}
+[5.294225] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.341873] (-) TimerEvent: {}
+[5.406976] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.441970] (-) TimerEvent: {}
+[5.462460] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[5.500045] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[5.542055] (-) TimerEvent: {}
+[5.645770] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.645997] (-) TimerEvent: {}
+[5.746207] (-) TimerEvent: {}
+[5.846598] (-) TimerEvent: {}
+[5.912710] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[5.946699] (-) TimerEvent: {}
+[6.047698] (-) TimerEvent: {}
+[6.148043] (-) TimerEvent: {}
+[6.251774] (-) TimerEvent: {}
+[6.293244] (interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.346447] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.351861] (-) TimerEvent: {}
+[6.398102] (interfaces) StdoutLine: {'line': b'[ 77%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.407825] (interfaces) StdoutLine: {'line': b'[ 77%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.452056] (-) TimerEvent: {}
+[6.503151] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.552103] (-) TimerEvent: {}
+[6.602653] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.627385] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces\n'}
+[6.651504] (interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.652822] (-) TimerEvent: {}
+[6.753069] (-) TimerEvent: {}
+[6.853300] (-) TimerEvent: {}
+[6.953653] (-) TimerEvent: {}
+[7.053999] (-) TimerEvent: {}
+[7.135594] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces__py\n'}
+[7.153520] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[7.153747] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[7.153831] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[7.154088] (-) TimerEvent: {}
+[7.254370] (-) TimerEvent: {}
+[7.293635] (interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.329272] (interfaces) StdoutLine: {'line': b'[ 88%] Built target interfaces__rosidl_generator_py\n'}
+[7.346965] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.347539] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.347719] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.354431] (-) TimerEvent: {}
+[7.439340] (interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.442891] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.443166] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.454521] (-) TimerEvent: {}
+[7.465604] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_c\n'}
+[7.470706] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_introspection_c\n'}
+[7.470902] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[7.483875] (interfaces) CommandEnded: {'returncode': 0}
+[7.484633] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[7.508816] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/src/build/interfaces'], 'cwd': '/workspace/src/build/interfaces', 'env': OrderedDict({'HOSTNAME': 'pioneer1-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/phidgets_temperature/lib:/workspace/install/phidgets_spatial/lib:/workspace/install/phidgets_motors/lib:/workspace/install/phidgets_high_speed_encoder/lib:/workspace/install/phidgets_digital_outputs/lib:/workspace/install/phidgets_analog_outputs/lib:/workspace/install/phidgets_msgs/lib:/workspace/install/phidgets_magnetometer/lib:/workspace/install/phidgets_gyroscope/lib:/workspace/install/phidgets_digital_inputs/lib:/workspace/install/phidgets_analog_inputs/lib:/workspace/install/phidgets_accelerometer/lib:/workspace/install/phidgets_api/lib:/workspace/install/libphidget22/opt/libphidget22/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidgets_drivers:/workspace/install/phidgets_temperature:/workspace/install/phidgets_spatial:/workspace/install/phidgets_motors:/workspace/install/phidgets_ik:/workspace/install/phidgets_high_speed_encoder:/workspace/install/phidgets_digital_outputs:/workspace/install/phidgets_analog_outputs:/workspace/install/phidgets_msgs:/workspace/install/phidgets_magnetometer:/workspace/install/phidgets_gyroscope:/workspace/install/phidgets_digital_inputs:/workspace/install/phidgets_analog_inputs:/workspace/install/phidgets_accelerometer:/workspace/install/phidgets_api:/workspace/install/phidget:/workspace/install/master:/workspace/install/libphidget22:/workspace/install/lakibeam1:/workspace/install/interfaces:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/workspace/install/ariaNode:/opt/ros/jazzy', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/src/build/interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/py_srvcli/lib/python3.12/site-packages:/workspace/install/py_pubsub/lib/python3.12/site-packages:/workspace/install/phidgets_msgs/lib/python3.12/site-packages:/workspace/install/phidget/lib/python3.12/site-packages:/workspace/install/master/lib/python3.12/site-packages:/workspace/install/detection/lib/python3.12/site-packages:/workspace/install/controller/lib/python3.12/site-packages:/workspace/install/camera/lib/python3.12/site-packages:/workspace/install/autoDrive/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/phidgets_drivers:/workspace/install/phidgets_temperature:/workspace/install/phidgets_spatial:/workspace/install/phidgets_motors:/workspace/install/phidgets_ik:/workspace/install/phidgets_high_speed_encoder:/workspace/install/phidgets_digital_outputs:/workspace/install/phidgets_analog_outputs:/workspace/install/phidgets_msgs:/workspace/install/phidgets_magnetometer:/workspace/install/phidgets_gyroscope:/workspace/install/phidgets_digital_inputs:/workspace/install/phidgets_analog_inputs:/workspace/install/phidgets_accelerometer:/workspace/install/phidgets_api:/workspace/install/libphidget22:/workspace/install/lakibeam1:/workspace/install/interfaces:/workspace/install/ariaNode:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy'}), 'shell': False}
+[7.528379] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.528960] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[7.530641] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Num.json\n'}
+[7.530786] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Sphere.json\n'}
+[7.530889] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/srv/AddThreeInts.json\n'}
+[7.530984] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces\n'}
+[7.531060] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.531121] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/sphere.h\n'}
+[7.531179] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.531236] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c\n'}
+[7.531292] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__functions.c\n'}
+[7.531349] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__description.c\n'}
+[7.534758] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__functions.h\n'}
+[7.534864] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.h\n'}
+[7.534925] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.c\n'}
+[7.534984] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.h\n'}
+[7.535191] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__description.c\n'}
+[7.535250] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.h\n'}
+[7.535307] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.h\n'}
+[7.535364] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.h\n'}
+[7.535421] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.c\n'}
+[7.535479] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.535536] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/num.h\n'}
+[7.535593] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv\n'}
+[7.535658] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[7.535715] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__description.c\n'}
+[7.535781] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[7.535839] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__functions.c\n'}
+[7.535896] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__functions.h\n'}
+[7.535952] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__struct.h\n'}
+[7.536008] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[7.536069] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/add_three_ints.h\n'}
+[7.536125] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[7.536181] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[7.536238] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[7.536349] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[7.536413] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces\n'}
+[7.536471] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.536528] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.536589] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.536647] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[7.536704] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[7.536767] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv\n'}
+[7.536825] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[7.536882] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[7.536938] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.539804] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.539937] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces\n'}
+[7.540024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.540094] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/sphere.hpp\n'}
+[7.540169] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.540239] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/num.hpp\n'}
+[7.540300] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.540359] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__builder.hpp\n'}
+[7.540418] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__builder.hpp\n'}
+[7.540475] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__traits.hpp\n'}
+[7.540532] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.hpp\n'}
+[7.540596] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.hpp\n'}
+[7.546443] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.hpp\n'}
+[7.546705] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__traits.hpp\n'}
+[7.546903] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.hpp\n'}
+[7.550993] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv\n'}
+[7.551146] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[7.551220] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[7.551280] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[7.551338] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[7.551396] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[7.551545] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/add_three_ints.hpp\n'}
+[7.551608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces\n'}
+[7.551666] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.551723] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.551789] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.551847] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[7.551904] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.551962] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.552024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv\n'}
+[7.552082] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[7.552140] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.552198] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[7.552256] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.554599] (-) TimerEvent: {}
+[7.555094] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.556063] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces\n'}
+[7.556153] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.556243] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.556324] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.556401] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[7.556467] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c\n'}
+[7.556538] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[7.556607] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.c\n'}
+[7.556681] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv\n'}
+[7.556767] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[7.559438] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[7.559921] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[7.560004] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.560130] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.560501] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[7.560739] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.560970] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces\n'}
+[7.561035] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.561408] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.561613] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.561805] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.562013] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.cpp\n'}
+[7.562184] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.cpp\n'}
+[7.562322] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv\n'}
+[7.562483] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[7.562708] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[7.563012] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.563084] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.563146] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.563465] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[7.563524] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.563582] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[7.563639] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[7.563696] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info\n'}
+[7.564069] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.564137] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.564196] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.564465] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.564524] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces\n'}
+[7.564582] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.564639] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.564697] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py\n'}
+[7.565059] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[7.565118] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.565174] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg\n'}
+[7.573510] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py\n'}
+[7.573847] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py\n'}
+[7.574168] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num_s.c\n'}
+[7.574494] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sphere.py\n'}
+[7.574828] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sphere_s.c\n'}
+[7.575259] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.575329] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.575951] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv\n'}
+[7.576064] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py\n'}
+[7.576140] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_add_three_ints_s.c\n'}
+[7.577335] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_add_three_ints.py\n'}
+[7.630124] (interfaces) StdoutLine: {'line': b"Listing '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces'...\n"}
+[7.630322] (interfaces) StdoutLine: {'line': b"Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...\n"}
+[7.630408] (interfaces) StdoutLine: {'line': b"Listing '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...\n"}
+[7.630470] (interfaces) StdoutLine: {'line': b"Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...\n"}
+[7.630529] (interfaces) StdoutLine: {'line': b"Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py'...\n"}
+[7.630588] (interfaces) StdoutLine: {'line': b"Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sphere.py'...\n"}
+[7.630652] (interfaces) StdoutLine: {'line': b"Listing '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv'...\n"}
+[7.630711] (interfaces) StdoutLine: {'line': b"Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py'...\n"}
+[7.630778] (interfaces) StdoutLine: {'line': b"Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_add_three_ints.py'...\n"}
+[7.636768] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.638049] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.638148] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.638497] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.638768] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[7.639132] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[7.639342] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[7.639884] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[7.640104] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Num.idl\n'}
+[7.640439] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Sphere.idl\n'}
+[7.640530] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/srv/AddThreeInts.idl\n'}
+[7.640761] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Num.msg\n'}
+[7.641085] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Sphere.msg\n'}
+[7.641293] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/srv/AddThreeInts.srv\n'}
+[7.641387] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[7.641527] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[7.641719] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[7.641811] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[7.641945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/path.sh\n'}
+[7.642081] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[7.642215] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/local_setup.bash\n'}
+[7.642347] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/local_setup.sh\n'}
+[7.642589] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[7.642732] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[7.642955] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/package.dsv\n'}
+[7.643099] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[7.643255] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.643478] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.643712] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.643940] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.644168] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.644397] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.644613] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.644868] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.645088] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.645313] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.645526] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.645753] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.645970] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.646194] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.646405] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.646660] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.646881] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.647096] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.647301] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.647511] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.647716] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.647949] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.648158] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.648372] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.648578] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[7.648788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[7.648931] (interfaces) StdoutLine: {'line': b'-- Installing: /workspace/src/install/interfaces/share/interfaces/package.xml\n'}
+[7.654788] (interfaces) CommandEnded: {'returncode': 0}
+[7.655173] (-) TimerEvent: {}
+[7.689588] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[7.690701] (-) EventReactorShutdown: {}

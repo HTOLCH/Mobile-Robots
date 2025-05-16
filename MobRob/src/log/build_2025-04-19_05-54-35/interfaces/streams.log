@@ -1,0 +1,302 @@
+[0.027s] Invoking command in '/workspace/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --build /workspace/src/build/interfaces -- -j8 -l8
+[0.058s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.222s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.281s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.319s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.474s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.586s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.120s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.124s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.217s] -- Found PythonExtra: /usr/bin/python3  
+[2.637s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.686s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.696s] -- Added test 'lint_cmake' to check CMake code style
+[2.697s] -- Added test 'xmllint' to check XML markup files
+[2.700s] -- Configuring done (2.6s)
+[2.734s] -- Generating done (0.0s)
+[2.746s] -- Build files have been written to: /workspace/src/build/interfaces
+[2.801s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.807s] [  1%] Built target ament_cmake_python_copy_interfaces
+[3.080s] running egg_info
+[3.083s] creating interfaces.egg-info
+[3.099s] writing interfaces.egg-info/PKG-INFO
+[3.099s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[3.099s] writing top-level names to interfaces.egg-info/top_level.txt
+[3.099s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.155s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.155s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.194s] [  1%] Built target ament_cmake_python_build_interfaces_egg
+[3.233s] [  1%] Built target interfaces__rosidl_generator_type_description
+[3.245s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.274s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.712s] [  5%] Built target interfaces__cpp
+[3.771s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__functions.c.o[0m
+[3.771s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c.o[0m
+[3.772s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__description.c.o[0m
+[3.774s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.775s] [ 16%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_three_ints__description.c.o[0m
+[3.777s] [ 16%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__type_support.c.o[0m
+[3.782s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[3.786s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__description.c.o[0m
+[3.869s] [ 22%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.963s] [ 24%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[4.049s] [ 24%] Built target interfaces__rosidl_generator_c
+[4.059s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.060s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.060s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.060s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.060s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.060s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.522s] [ 37%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/num__type_support.c.o[0m
+[4.535s] [ 38%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/sphere__type_support.c.o[0m
+[4.543s] [ 40%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[4.554s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/num__type_support.cpp.o[0m
+[4.557s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/num__type_support.cpp.o[0m
+[4.576s] [ 46%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/num__type_support.cpp.o[0m
+[4.640s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.654s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp.o[0m
+[4.703s] [ 51%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[4.738s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[4.741s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/sphere__type_support.cpp.o[0m
+[4.803s] [ 57%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.844s] [ 57%] Built target interfaces__rosidl_typesupport_introspection_c
+[4.858s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[4.931s] [ 61%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[5.068s] [ 61%] Built target interfaces__rosidl_typesupport_c
+[5.108s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[5.178s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[5.289s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[5.402s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[5.457s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[5.495s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[5.641s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[5.908s] [ 74%] Built target interfaces__rosidl_typesupport_cpp
+[6.288s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.341s] [ 77%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.393s] [ 77%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[6.403s] [ 77%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[6.498s] [ 79%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.598s] [ 79%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[6.622s] [ 79%] Built target interfaces
+[6.647s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.130s] [ 81%] Built target interfaces__py
+[7.148s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_num_s.c.o[0m
+[7.148s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_sphere_s.c.o[0m
+[7.148s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_add_three_ints_s.c.o[0m
+[7.288s] [ 88%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_py.so[0m
+[7.324s] [ 88%] Built target interfaces__rosidl_generator_py
+[7.342s] [ 90%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.342s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.342s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.434s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so[0m
+[7.438s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.438s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.460s] [100%] Built target interfaces_s__rosidl_typesupport_c
+[7.465s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[7.466s] [100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[7.479s] Invoked command in '/workspace/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --build /workspace/src/build/interfaces -- -j8 -l8
+[7.504s] Invoking command in '/workspace/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --install /workspace/src/build/interfaces
+[7.523s] -- Install configuration: ""
+[7.525s] -- Installing: /workspace/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[7.525s] -- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Num.json
+[7.525s] -- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Sphere.json
+[7.526s] -- Installing: /workspace/src/install/interfaces/share/interfaces/srv/AddThreeInts.json
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/sphere.h
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__functions.c
+[7.526s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__description.c
+[7.529s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__functions.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.c
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__description.c
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.c
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/num.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__description.c
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.h
+[7.530s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__functions.c
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__functions.h
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__struct.h
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.c
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/add_three_ints.h
+[7.531s] -- Installing: /workspace/src/install/interfaces/share/interfaces/environment/library_path.sh
+[7.531s] -- Installing: /workspace/src/install/interfaces/share/interfaces/environment/library_path.dsv
+[7.531s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[7.531s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[7.531s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces
+[7.531s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.531s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[7.531s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[7.531s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv
+[7.531s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[7.532s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[7.532s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[7.534s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.535s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces
+[7.535s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/sphere.hpp
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/num.hpp
+[7.535s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__builder.hpp
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__builder.hpp
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__traits.hpp
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.hpp
+[7.535s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.hpp
+[7.541s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.hpp
+[7.541s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__traits.hpp
+[7.542s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.hpp
+[7.546s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv
+[7.546s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.hpp
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__builder.hpp
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__struct.hpp
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__traits.hpp
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/add_three_ints.hpp
+[7.546s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces
+[7.546s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.546s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail
+[7.546s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[7.547s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[7.547s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[7.547s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv
+[7.547s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[7.547s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[7.547s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[7.547s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.551s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.551s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces
+[7.551s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg
+[7.551s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.551s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail
+[7.551s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[7.551s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c
+[7.551s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[7.551s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.c
+[7.551s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv
+[7.551s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[7.554s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[7.555s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.c
+[7.555s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[7.555s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.555s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[7.556s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[7.556s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces
+[7.556s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg
+[7.556s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail
+[7.556s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[7.557s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[7.557s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.cpp
+[7.557s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.cpp
+[7.557s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv
+[7.557s] -- Up-to-date: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[7.558s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__type_support.cpp
+[7.558s] -- Installing: /workspace/src/install/interfaces/include/interfaces/interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[7.558s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[7.558s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.558s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[7.558s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[7.558s] -- Installing: /workspace/src/install/interfaces/share/interfaces/environment/pythonpath.sh
+[7.558s] -- Installing: /workspace/src/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.559s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[7.560s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[7.560s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[7.560s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.560s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg
+[7.568s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py
+[7.569s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py
+[7.569s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num_s.c
+[7.569s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sphere.py
+[7.569s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sphere_s.c
+[7.570s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[7.570s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.571s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv
+[7.571s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py
+[7.571s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_add_three_ints_s.c
+[7.572s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_add_three_ints.py
+[7.625s] Listing '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[7.625s] Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...
+[7.625s] Listing '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...
+[7.625s] Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...
+[7.625s] Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py'...
+[7.625s] Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sphere.py'...
+[7.625s] Listing '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv'...
+[7.625s] Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py'...
+[7.625s] Compiling '/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_add_three_ints.py'...
+[7.633s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.633s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.633s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[7.633s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.633s] -- Installing: /workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[7.634s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""
+[7.634s] -- Installing: /workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[7.635s] -- Set non-toolchain portion of runtime path of "/workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[7.635s] -- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Num.idl
+[7.635s] -- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Sphere.idl
+[7.635s] -- Installing: /workspace/src/install/interfaces/share/interfaces/srv/AddThreeInts.idl
+[7.635s] -- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Num.msg
+[7.636s] -- Installing: /workspace/src/install/interfaces/share/interfaces/msg/Sphere.msg
+[7.636s] -- Installing: /workspace/src/install/interfaces/share/interfaces/srv/AddThreeInts.srv
+[7.636s] -- Up-to-date: /workspace/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[7.636s] -- Up-to-date: /workspace/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[7.636s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[7.636s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[7.637s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/path.sh
+[7.637s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/environment/path.dsv
+[7.637s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/local_setup.bash
+[7.637s] -- Installing: /workspace/src/install/interfaces/share/interfaces/local_setup.sh
+[7.637s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/local_setup.zsh
+[7.637s] -- Installing: /workspace/src/install/interfaces/share/interfaces/local_setup.dsv
+[7.638s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/package.dsv
+[7.638s] -- Up-to-date: /workspace/src/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[7.638s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[7.638s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.638s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.639s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.639s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[7.639s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.639s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.640s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.640s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.640s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[7.640s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.640s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.641s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.641s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[7.641s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.641s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[7.642s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.642s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[7.642s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.642s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.642s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.643s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.643s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.643s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.643s] -- Installing: /workspace/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[7.643s] -- Up-to-date: /workspace/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[7.644s] -- Installing: /workspace/src/install/interfaces/share/interfaces/package.xml
+[7.650s] Invoked command in '/workspace/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --install /workspace/src/build/interfaces

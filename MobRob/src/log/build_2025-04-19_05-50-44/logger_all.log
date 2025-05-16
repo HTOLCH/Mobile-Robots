@@ -1,0 +1,426 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'interfaces']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['interfaces'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75511d38dc70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75511d4ea000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75511d4ea000>>, mixin_verb=('build',))
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.169s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/src'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'Lakibeam_ROS2_Driver' with type 'ros.ament_cmake' and name 'lakibeam1'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ariaNode) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'ariaNode' with type 'ros.ament_cmake' and name 'ariaNode'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(autoDrive) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'autoDrive' with type 'ros.ament_python' and name 'autoDrive'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'camera' with type 'ros.ament_python' and name 'camera'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'controller' with type 'ros.ament_python' and name 'controller'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(detection) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'detection' with type 'ros.ament_python' and name 'detection'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(master) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'master' with type 'ros.ament_python' and name 'master'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'phidget' with type 'ros.ament_python' and name 'phidget'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/libphidget22' with type 'ros.ament_cmake' and name 'libphidget22'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_accelerometer' with type 'ros.ament_cmake' and name 'phidgets_accelerometer'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_analog_inputs' with type 'ros.ament_cmake' and name 'phidgets_analog_inputs'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_analog_outputs' with type 'ros.ament_cmake' and name 'phidgets_analog_outputs'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_api' with type 'ros.ament_cmake' and name 'phidgets_api'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_digital_inputs' with type 'ros.ament_cmake' and name 'phidgets_digital_inputs'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_digital_outputs' with type 'ros.ament_cmake' and name 'phidgets_digital_outputs'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_drivers' with type 'ros.ament_cmake' and name 'phidgets_drivers'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_gyroscope' with type 'ros.ament_cmake' and name 'phidgets_gyroscope'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_high_speed_encoder' with type 'ros.ament_cmake' and name 'phidgets_high_speed_encoder'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_ik' with type 'ros.ament_cmake' and name 'phidgets_ik'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_magnetometer' with type 'ros.ament_cmake' and name 'phidgets_magnetometer'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_motors' with type 'ros.ament_cmake' and name 'phidgets_motors'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_msgs' with type 'ros.ament_cmake' and name 'phidgets_msgs'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_spatial' with type 'ros.ament_cmake' and name 'phidgets_spatial'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_temperature' with type 'ros.ament_cmake' and name 'phidgets_temperature'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ariaNode' in 'ariaNode'
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'autoDrive' in 'autoDrive'
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera' in 'camera'
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'controller' in 'controller'
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'detection' in 'detection'
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lakibeam1' in 'Lakibeam_ROS2_Driver'
+[0.248s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'libphidget22' in 'phidgets_drivers/libphidget22'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'master' in 'master'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidget' in 'phidget'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_msgs' in 'phidgets_drivers/phidgets_msgs'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_pubsub' in 'py_pubsub'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_srvcli' in 'py_srvcli'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_api' in 'phidgets_drivers/phidgets_api'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_accelerometer' in 'phidgets_drivers/phidgets_accelerometer'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_analog_inputs' in 'phidgets_drivers/phidgets_analog_inputs'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_analog_outputs' in 'phidgets_drivers/phidgets_analog_outputs'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_digital_inputs' in 'phidgets_drivers/phidgets_digital_inputs'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_digital_outputs' in 'phidgets_drivers/phidgets_digital_outputs'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_gyroscope' in 'phidgets_drivers/phidgets_gyroscope'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_high_speed_encoder' in 'phidgets_drivers/phidgets_high_speed_encoder'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_magnetometer' in 'phidgets_drivers/phidgets_magnetometer'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_motors' in 'phidgets_drivers/phidgets_motors'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_spatial' in 'phidgets_drivers/phidgets_spatial'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_temperature' in 'phidgets_drivers/phidgets_temperature'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_ik' in 'phidgets_drivers/phidgets_ik'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'phidgets_drivers' in 'phidgets_drivers/phidgets_drivers'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/src/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/src/install/interfaces', 'merge_install': False, 'path': '/workspace/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/src/interfaces' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/src/interfaces'
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake /workspace/src/interfaces -DCMAKE_INSTALL_PREFIX=/workspace/src/install/interfaces
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake /workspace/src/interfaces -DCMAKE_INSTALL_PREFIX=/workspace/src/install/interfaces
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --build /workspace/src/build/interfaces -- -j8 -l8
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --build /workspace/src/build/interfaces -- -j8 -l8
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --install /workspace/src/build/interfaces
+[1.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[1.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidget:/workspace/install/master:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/opt/ros/jazzy /usr/bin/cmake --install /workspace/src/build/interfaces
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces' for CMake module files
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces' for CMake config files
+[1.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/src/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/src/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/src/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/lib/pkgconfig/interfaces.pc'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/lib/python3.12/site-packages'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/bin'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/src/install/interfaces/share/interfaces/package.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.sh'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.bash'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/src/install/interfaces/share/colcon-core/packages/interfaces)
+[1.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces' for CMake module files
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces' for CMake config files
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/src/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/src/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/src/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/bin'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/lib/pkgconfig/interfaces.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/lib/python3.12/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/workspace/src/install/interfaces/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/src/install/interfaces/share/interfaces/package.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/src/install/interfaces/share/interfaces/package.zsh'
+[1.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/src/install/interfaces/share/colcon-core/packages/interfaces)
+[1.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.210s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.215s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.216s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.217s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/src/install/local_setup.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/src/install/_local_setup_util_ps1.py'
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/src/install/setup.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/src/install/local_setup.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/src/install/_local_setup_util_sh.py'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/src/install/setup.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/src/install/local_setup.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/src/install/setup.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/src/install/local_setup.zsh'
+[1.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/src/install/setup.zsh'

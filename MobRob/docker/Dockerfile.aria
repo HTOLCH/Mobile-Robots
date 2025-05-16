@@ -1,0 +1,36 @@
+# inherit from the base image to reduce dependencies 
+FROM ros2-base as aria
+
+# sets working directory
+WORKDIR /workspace
+
+# install dependencies for AriaCoda
+RUN apt-get update && apt-get install -y \
+    libfltk1.3-dev \
+    libx11-dev \
+    libxext-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Clone and build AriaCoda
+RUN rm -rf /workspace/src/AriaCoda && \
+    git clone https://github.com/reedhedges/AriaCoda.git /workspace/src/AriaCoda \
+    && cd /workspace/src/AriaCoda \
+    && make \
+    && make install 
+
+# Install ROS dependencies
+# RUN rosdep update && rosdep install --from-paths /workspace/src --ignore-src -r -y
+
+# copies the local src/ariaNode on host machine to docker container 
+COPY ./src/ariaNode /workspace/src/ariaNode 
+
+RUN . /opt/ros/jazzy/setup.sh && \
+    colcon build --symlink-install --packages-select ariaNode
+
+# sources ROS2 environment and builds workplace with only ariaNode
+# RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
+# RUN echo "source /workspace/install/setup.bash" >> /root/.bashrc
+# RUN echo "colcon build --packages-select ariaNode --symlink-install" >> /root/.bashrc
+
+# Run ariaNode on startup
+CMD ["bash", "-c", "source /opt/ros/jazzy/setup.bash && source /workspace/install/setup.bash && ros2 run ariaNode ariaNode -rp /dev/ttyUSB0"]

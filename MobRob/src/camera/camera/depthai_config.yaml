@@ -1,0 +1,15 @@
+camera:
+  i_enable_diagnostics: true
+  i_enable_ir: true
+  i_enable_sync: false
+  i_publish_tf_from_calibration: false
+  i_floodlight_brightness: 0
+  i_usb_port_id: ""
+  i_usb_speed: SUPER_PLUS
+  i_tf_base_frame: oak
+  i_publish_topic: true  # Ensure the topic is published
+  i_resolution: 1080P  # Set resolution
+  i_fps: 30.0  # Set frame rate
+  i_width: 1280  # Image width
+  i_height: 720  # Image height
+  i_publish_compressed: false  # Optional: Set to true for compressed image

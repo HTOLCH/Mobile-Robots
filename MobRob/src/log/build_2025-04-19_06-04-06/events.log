@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000671] (-) JobUnselected: {'identifier': 'ariaNode'}
+[0.000765] (-) JobUnselected: {'identifier': 'autoDrive'}
+[0.000840] (-) JobUnselected: {'identifier': 'camera'}
+[0.000916] (-) JobUnselected: {'identifier': 'controller'}
+[0.000985] (-) JobUnselected: {'identifier': 'detection'}
+[0.001053] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.003996] (-) JobUnselected: {'identifier': 'lakibeam1'}
+[0.004089] (-) JobUnselected: {'identifier': 'libphidget22'}
+[0.004176] (-) JobUnselected: {'identifier': 'master'}
+[0.004248] (-) JobUnselected: {'identifier': 'phidget'}
+[0.004320] (-) JobUnselected: {'identifier': 'phidgets_accelerometer'}
+[0.004397] (-) JobUnselected: {'identifier': 'phidgets_analog_inputs'}
+[0.004482] (-) JobUnselected: {'identifier': 'phidgets_analog_outputs'}
+[0.004570] (-) JobUnselected: {'identifier': 'phidgets_api'}
+[0.004667] (-) JobUnselected: {'identifier': 'phidgets_digital_inputs'}
+[0.004735] (-) JobUnselected: {'identifier': 'phidgets_digital_outputs'}
+[0.004887] (-) JobUnselected: {'identifier': 'phidgets_drivers'}
+[0.005078] (-) JobUnselected: {'identifier': 'phidgets_gyroscope'}
+[0.005162] (-) JobUnselected: {'identifier': 'phidgets_high_speed_encoder'}
+[0.005255] (-) JobUnselected: {'identifier': 'phidgets_ik'}
+[0.005350] (-) JobUnselected: {'identifier': 'phidgets_magnetometer'}
+[0.005445] (-) JobUnselected: {'identifier': 'phidgets_motors'}
+[0.005541] (-) JobUnselected: {'identifier': 'phidgets_msgs'}
+[0.005633] (-) JobUnselected: {'identifier': 'phidgets_spatial'}
+[0.005723] (-) JobUnselected: {'identifier': 'phidgets_temperature'}
+[0.005814] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.005907] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict({'interfaces': '/workspace/src/install/interfaces'})}
+[0.006000] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099988] (-) TimerEvent: {}
+[0.200380] (-) TimerEvent: {}
+[0.300645] (-) TimerEvent: {}
+[0.400853] (-) TimerEvent: {}
+[0.501077] (-) TimerEvent: {}
+[0.605010] (-) TimerEvent: {}
+[0.698682] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py_pubsub', 'build', '--build-base', '/workspace/src/build/py_pubsub/build', 'install', '--record', '/workspace/src/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/py_pubsub', 'env': {'HOSTNAME': 'pioneer1-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/src/install/interfaces/lib:/workspace/install/phidgets_temperature/lib:/workspace/install/phidgets_spatial/lib:/workspace/install/phidgets_motors/lib:/workspace/install/phidgets_high_speed_encoder/lib:/workspace/install/phidgets_digital_outputs/lib:/workspace/install/phidgets_analog_outputs/lib:/workspace/install/phidgets_msgs/lib:/workspace/install/phidgets_magnetometer/lib:/workspace/install/phidgets_gyroscope/lib:/workspace/install/phidgets_digital_inputs/lib:/workspace/install/phidgets_analog_inputs/lib:/workspace/install/phidgets_accelerometer/lib:/workspace/install/phidgets_api/lib:/workspace/install/libphidget22/opt/libphidget22/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/src/install:/workspace/install', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/workspace/src/install/interfaces:/workspace/install/py_srvcli:/workspace/install/py_pubsub:/workspace/install/phidgets_drivers:/workspace/install/phidgets_temperature:/workspace/install/phidgets_spatial:/workspace/install/phidgets_motors:/workspace/install/phidgets_ik:/workspace/install/phidgets_high_speed_encoder:/workspace/install/phidgets_digital_outputs:/workspace/install/phidgets_analog_outputs:/workspace/install/phidgets_msgs:/workspace/install/phidgets_magnetometer:/workspace/install/phidgets_gyroscope:/workspace/install/phidgets_digital_inputs:/workspace/install/phidgets_analog_inputs:/workspace/install/phidgets_accelerometer:/workspace/install/phidgets_api:/workspace/install/phidget:/workspace/install/master:/workspace/install/libphidget22:/workspace/install/lakibeam1:/workspace/install/interfaces:/workspace/install/detection:/workspace/install/controller:/workspace/install/camera:/workspace/install/autoDrive:/workspace/install/ariaNode:/opt/ros/jazzy', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/src/build/py_pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/py_pubsub/lib/python3.12/site-packages:/workspace/src/install/interfaces/lib/python3.12/site-packages:/workspace/install/py_srvcli/lib/python3.12/site-packages:/workspace/install/py_pubsub/lib/python3.12/site-packages:/workspace/install/phidgets_msgs/lib/python3.12/site-packages:/workspace/install/phidget/lib/python3.12/site-packages:/workspace/install/master/lib/python3.12/site-packages:/workspace/install/detection/lib/python3.12/site-packages:/workspace/install/controller/lib/python3.12/site-packages:/workspace/install/camera/lib/python3.12/site-packages:/workspace/install/autoDrive/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/src/install/interfaces:/workspace/install/phidgets_drivers:/workspace/install/phidgets_temperature:/workspace/install/phidgets_spatial:/workspace/install/phidgets_motors:/workspace/install/phidgets_ik:/workspace/install/phidgets_high_speed_encoder:/workspace/install/phidgets_digital_outputs:/workspace/install/phidgets_analog_outputs:/workspace/install/phidgets_msgs:/workspace/install/phidgets_magnetometer:/workspace/install/phidgets_gyroscope:/workspace/install/phidgets_digital_inputs:/workspace/install/phidgets_analog_inputs:/workspace/install/phidgets_accelerometer:/workspace/install/phidgets_api:/workspace/install/libphidget22:/workspace/install/lakibeam1:/workspace/install/interfaces:/workspace/install/ariaNode:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.705073] (-) TimerEvent: {}
+[0.805243] (-) TimerEvent: {}
+[0.901043] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.901274] (py_pubsub) StdoutLine: {'line': b'creating ../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.905285] (-) TimerEvent: {}
+[0.914341] (py_pubsub) StdoutLine: {'line': b'writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.914508] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.914643] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.914743] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.914809] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.914929] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.944274] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.944645] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.945086] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.945203] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.945280] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.945375] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/build/py_pubsub/build\n'}
+[0.945443] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/build/py_pubsub/build/lib\n'}
+[0.945624] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.945697] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /workspace/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.945776] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /workspace/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.945859] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /workspace/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.946018] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.952055] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.967208] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[0.967473] (py_pubsub) StdoutLine: {'line': b'copying /workspace/src/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[0.967561] (py_pubsub) StdoutLine: {'line': b'copying /workspace/src/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[0.967669] (py_pubsub) StdoutLine: {'line': b'copying /workspace/src/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[0.968106] (py_pubsub) StdoutLine: {'line': b'byte-compiling /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc\n'}
+[0.968690] (py_pubsub) StdoutLine: {'line': b'byte-compiling /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc\n'}
+[0.968778] (py_pubsub) StdoutLine: {'line': b'byte-compiling /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc\n'}
+[0.969078] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.969169] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/install/py_pubsub/share/ament_index\n'}
+[0.969263] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.969338] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.969432] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /workspace/src/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.969528] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /workspace/src/install/py_pubsub/share/py_pubsub\n'}
+[0.969601] (py_pubsub) StdoutLine: {'line': b'creating /workspace/src/install/py_pubsub/share/py_pubsub/launch\n'}
+[0.969673] (py_pubsub) StdoutLine: {'line': b'copying launch/my_script_launch.py -> /workspace/src/install/py_pubsub/share/py_pubsub/launch\n'}
+[0.969767] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.996885] (py_pubsub) StdoutLine: {'line': b'Copying ../build/py_pubsub/py_pubsub.egg-info to /workspace/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[0.997455] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.005527] (-) TimerEvent: {}
+[1.106258] (-) TimerEvent: {}
+[1.122005] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /workspace/src/install/py_pubsub/lib/py_pubsub\n'}
+[1.123013] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /workspace/src/install/py_pubsub/lib/py_pubsub\n'}
+[1.123510] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/workspace/src/build/py_pubsub/install.log'\n"}
+[1.154084] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.160914] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.161469] (-) EventReactorShutdown: {}

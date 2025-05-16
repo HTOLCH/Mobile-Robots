@@ -1,0 +1,79 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Master",
+			"type": "shell",
+			"command": "docker exec -it test bash -c 'source /opt/ros/jazzy/setup.bash && colcon build --packages-select controller master interfaces --packages-ignore depthai_bridge depthai_descriptions depthai_examples depthai_filters depthai_ros_driver depthai_ros_msgs depthai_ros depthai-sdk && source /workspace/install/setup.bash && ros2 launch controller my_script_launch.py && exec bash'",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never"
+			}
+		},
+		{
+			"label": "aria",
+			"type": "shell",
+			"command": "docker exec -it test bash -c 'source /opt/ros/jazzy/setup.bash && colcon build --packages-select ariaNode --packages-ignore depthai_bridge depthai_descriptions depthai_examples depthai_filters depthai_ros_driver depthai_ros_msgs depthai_ros depthai-sdk && source /workspace/install/setup.bash && ros2 run ariaNode ariaNode -rp /dev/ttyUSB0 && exec bash'",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never"
+			}
+		},
+		{
+			"label": "Camera",
+			"type": "shell",
+			"command": "docker exec -it test bash -c 'source /opt/ros/jazzy/setup.bash && colcon build --packages-select depthai_ros_driver  --packages-ignore depthai_bridge depthai_descriptions depthai_examples depthai_filters depthai_ros_driver depthai_ros_msgs depthai_ros depthai-sdk && source /workspace/install/setup.bash && ros2 launch depthai_ros_driver camera.launch.py && exec bash'",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never"
+			}
+		},
+		{
+			"label": "autoDrive",
+			"type": "shell",
+			"command": "docker exec -it test bash -c 'source /opt/ros/jazzy/setup.bash && colcon build --packages-ignore depthai_bridge depthai_descriptions depthai_examples depthai_filters depthai_ros_driver depthai_ros_msgs depthai_ros depthai-sdk && source /workspace/install/setup.bash && ros2 launch autoDrive auto-launch.py && exec bash'",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		},
+		{
+			"label": "detection",
+			"type": "shell",
+			"command": "docker exec -it test bash -c 'source /opt/ros/jazzy/setup.bash && colcon build --packages-select detection interfaces --packages-ignore depthai_bridge depthai_descriptions depthai_examples depthai_filters depthai_ros_driver depthai_ros_msgs depthai_ros depthai-sdk && source /workspace/install/setup.bash && ros2 run detection detection && exec bash'",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		},
+		{
+			"label": "Testing",
+			"type": "shell",
+			"command": "docker exec -it test bash -c 'source /opt/ros/jazzy/setup.bash && colcon build --packages-select interfaces --packages-ignore depthai_bridge depthai_descriptions depthai_examples depthai_filters depthai_ros_driver depthai_ros_msgs depthai_ros depthai-sdk && source /workspace/install/setup.bash && exec bash'",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		},
+		{
+			"label": "Open All Shells 2",
+			"dependsOn": [
+				"Master",
+				"aria",
+				"Camera",
+				"autoDrive",
+				"Testing",
+				"detection"
+			],
+			"dependsOrder": "parallel",
+			"presentation": {
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		}
+	]
+  }
+  

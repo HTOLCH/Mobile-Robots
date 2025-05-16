@@ -1,0 +1,33 @@
+# inherit from the base image to reduce dependencies 
+FROM ros2-base as camera
+
+# sets working directory
+WORKDIR /workspace
+
+# install dependencies for node
+# RUN apt-get update && apt-get install -y \
+#     depthai-sdk \
+#     opencv-python \
+#     depthai \
+#     numpy
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y python3-venv && \
+sudo apt install ros-jazzy-depthai-ros -y && \
+rm -rf /var/lib/apt/lists/*
+
+# # Create and activate a virtual environment
+# RUN python3 -m venv /opt/venv
+# ENV PATH="/opt/venv/bin:$PATH"
+
+RUN pip install --no-cache-dir --break-system-packages depthai-sdk opencv-python depthai numpy ultralytics
+
+
+RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
+# source install/setup.bash
+
+# --env DISPLAY=:1 --volume /tmp/.X11-unix:/tmp/.X11-unix --device=/dev/bus/usb:/dev/bus/usb
+
+
+# ros2 launch depthai_ros_driver camera.launch.py
+# ros2 run detection detection 

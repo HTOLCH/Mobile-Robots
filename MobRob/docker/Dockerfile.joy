@@ -1,0 +1,38 @@
+# inherit from the base image to reduce dependencies 
+FROM ros2-base as controller
+
+# sets working directory
+WORKDIR /workspace
+
+# install dependencies specific to the controller
+# RUN rosdep update && \
+#     rosdep install --from-paths /workspace/src --ignore-src -r -y
+
+# install additional dependencies required only for the controller
+RUN apt-get update && \
+    apt-get install -y ros-jazzy-joy-linux && \
+    rm -rf /var/lib/apt/lists/*  
+
+# copies the local src/controller on host machine to docker container 
+# COPY . /workspace
+COPY ./src/controller /workspace/src/controller 
+
+
+
+
+
+# Ensure ROS 2 and workspace setup are sourced every time a shell starts
+#RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
+#RUN echo "source /workspace/install/setup.bash" >> /root/.bashrc
+# RUN echo "colcon build --packages-select controller --symlink-install" >> /root/.bashrc
+# RUN echo "ros2 launch controller my_script_launch.py" >> /root/.bashrc
+
+# When the container starts, source ROS setup files and run bash
+# CMD ["bash", "-c", "source /opt/ros/jazzy/setup.bash && source /workspace/install/setup.bash && bash"]
+
+# SHELL ["/bin/bash", "-c"]
+
+#source /opt/ros/jazzy/setup.bash
+#source /workspace/install/setup.bash
+#colcon build --packages-select controller --symlink-install 
+#ros2 launch controller my_script_launch.py

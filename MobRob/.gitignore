@@ -1,0 +1,15 @@
+# Ignore build directory
+/build/
+
+# Ignore install directory
+/install/
+
+# Ignore log directory
+/log/
+
+#Ignore phidgets_drivers
+#/src/phidgets_drivers
+
+/depthai/
+
+/depthai-ros/

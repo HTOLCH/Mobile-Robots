@@ -1,0 +1,34 @@
+# inherit from the base image to reduce dependencies 
+FROM ros2-base as drive
+
+# sets working directory
+WORKDIR /workspace
+
+#Install dependencies:
+RUN pip install --break-system-packages phidget22
+
+RUN apt-get update && apt-get install -y \
+    ros-jazzy-pcl-conversions
+
+#In the auto container, we want the following packages:
+    # autoDrive
+    # Lakibeam_ROS2_Driver
+    # phidget
+
+COPY ./src/autoDrive /workspace/src/autoDrive 
+COPY ./src/Lakibeam_ROS2_Driver /workspace/src/Lakibeam_ROS2_Driver 
+COPY ./src/phidget /workspace/src/phidget 
+
+# Install ROS dependencies using rosdep
+RUN rosdep update && \
+grep -F "source /opt/ros/${ROS_DISTRO}/setup.bash" /root/.bashrc || echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \
+grep -F "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" /root/.bashrc || echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> /root/.bashrc
+
+
+RUN . /opt/ros/jazzy/setup.sh && \
+    cd /workspace && \
+    colcon build --packages-select autoDrive lakibeam1 phidget
+
+
+# When the container starts, source ROS setup files and run bash
+CMD ["bash", "-c", "source /opt/ros/jazzy/setup.bash && source /workspace/install/setup.bash && bash"]

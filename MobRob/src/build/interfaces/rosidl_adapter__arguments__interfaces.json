@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/workspace/src/interfaces:msg/Num.msg",
+    "/workspace/src/interfaces:msg/Sphere.msg",
+    "/workspace/src/interfaces:srv/AddThreeInts.srv"
+  ]
+}
