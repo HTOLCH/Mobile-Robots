@@ -48,7 +48,17 @@ def generate_launch_description():
         package='phidget',
         executable='phidget',
         parameters=[{'use_sim_time': False}]
-    )      
+    )
+
+    joystick_library = Node(
+            package='joy_linux',
+            executable='joy_linux_node',
+            name='joy_publisher')
+    
+    master = Node(
+            package='master',
+            executable='master',
+            name='master')  
     
     declare_slam_params = DeclareLaunchArgument(
             'slam_params_file',
@@ -176,6 +186,9 @@ def generate_launch_description():
 
     return LaunchDescription([
         #log_slam_param,
+        phidget_drivers,
+        joystick_library,
+        master,
         richbeam_package,
         declare_use_sim_time, #Declare that we are not using sim time
         declare_nav2_params,
